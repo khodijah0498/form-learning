@@ -1,0 +1,84 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #4870f4;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding-top: 3rem;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: auto;
+  width: 60%;
+  height: 60%;
+  margin-top: 3rem;
+}
+form {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+h4 {
+  margin-left: 1rem;
+  font-size: large;
+}
+.underline{
+  border-bottom: 2px solid blue;
+  font-size: large;
+}
+.input{
+  padding:1rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  font-size: large;
+  color: #e5e5e5;
+  border: 1px solid #dddcdccc;
+  border-radius: 4px;
+  border-bottom-width: 3px;
+}
+.terms{
+  display: flex;
+  gap: 1rem;
+}
+.register{
+  padding: 1rem;
+  background-color: #3f70f3;
+  border: 1px solid #3f70f3;
+  color: white;
+  font-size: large;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+}
+.login{
+  border: 0;
+  background-color: white;
+  color:  #3f70f3;
+  font-size: large;
+}
+.account{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4rem;
+  font-weight: 800;
+}
